@@ -1,38 +1,29 @@
 <template>
-  <div id="app" class="uk-background-muted">
-    <!-- <div id="nav">
+  <div id="app">
+    <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/api">API Sample</router-link>
-    </div> -->
-    <!-- <img src="./assets/logo.png"> -->
+      <router-link to="/about">About</router-link>
+    </div>
     <router-view/>
   </div>
 </template>
 
 <style lang="scss">
-  #app {
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    color: #2c3e50;
-  }
-
-  h1, h2 {
-    font-weight: normal;
-  }
-
-  // ul {
-  //   list-style-type: none;
-  //   padding: 0;
-  // }
-  //
-  // li {
-  //   display: inline-block;
-  //   margin: 0 10px;
-  // }
-
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+#nav {
+  padding: 30px;
   a {
-    color: #42b983;
+    font-weight: bold;
+    color: #2c3e50;
+    &.router-link-exact-active {
+      color: #42b983;
+    }
   }
+}
 </style>
