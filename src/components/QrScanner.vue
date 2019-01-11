@@ -20,9 +20,12 @@ export default {
   },
   data() {
     return {
-      result: '',
-      error: ''
+      error: '',
     }
+  },
+
+  computed: {
+    w
   },
 
   methods: {
