@@ -9,9 +9,14 @@ export default new Router({
   base: process.env.BASE_URL,
   routes: [
     {
-      path: '/',
+      path: '/scan',
       name: 'scan',
       component: ScanPage,
+    },
+    {
+      path: '/create',
+      name: 'create',
+      component: () => import(/* webpackChunkName: "create" */ './views/CreatePage.vue'),
     },
     {
       path: '/message/:messageKey',
@@ -20,7 +25,7 @@ export default new Router({
       // route level code-splitting
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "about" */ './views/MessagePage.vue'),
+      component: () => import(/* webpackChunkName: "message" */ './views/MessagePage.vue'),
     },
   ],
 });

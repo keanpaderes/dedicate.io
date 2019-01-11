@@ -6,7 +6,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "deploy": "npm run build; push-dir --dir=dist --branch=gh-pages --cleanup"
+    "deploy": "npm run build; push-dir --dir=dist --branch=gh-pages --cleanup",
+    "force-gh": "git checkout gh-pages && git commit -m 'chore(gh-pages): Rebuild' --allow-empty && git push origin gh-pages && git checkout master && git branch -d gh-pages"
   },
   "dependencies": {
     "register-service-worker": "^1.5.2",
