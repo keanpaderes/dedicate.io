@@ -6,7 +6,7 @@
     <div v-if="cameraStatus">
       <QrcodeStream @decode="onDecode" @init="onInit" />
     </div>
-    <button @click="toggleCameraStatusAction">Turn on Camera</button>
+    <button @click="toggleCameraStatusAction">Turn {{ cameraStatus? 'Off' : 'On' }} Camera</button>
   </div>
 </template>
 
@@ -70,7 +70,7 @@ export default {
         this.$router.push({
           name: 'message',
           params: {
-            messageKey: newResult,
+            messageKey: Messages[newResult],
           },
         });
       }
