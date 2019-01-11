@@ -6,7 +6,7 @@
     <div v-if="cameraStatus">
       <QrcodeStream @decode="onDecode" @init="onInit" />
     </div>
-    <button :click="toggleCameraStatusAction">Turn on Camera</button>
+    <button @click="toggleCameraStatusAction">Turn on Camera</button>
   </div>
 </template>
 
