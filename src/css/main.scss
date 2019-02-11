@@ -3,4 +3,6 @@
 @import "settings/_settings.typography.scss";
 
 // 1. Your custom variables and variable overwrites.
+//Header
+@import "components/header/_components.topheader.scss";
 @import "components/_components.messagepage.scss";

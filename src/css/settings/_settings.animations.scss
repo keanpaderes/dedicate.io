@@ -72,3 +72,11 @@
     opacity: 1;
   }
 }
+
+/* heartbear */
+
+@keyframes heart-beat {
+  50% {
+    transform: rotate(45deg) scale(0.8);
+  }
+}

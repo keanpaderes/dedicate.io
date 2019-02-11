@@ -1,1 +1,47 @@
 
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  height: 100vh;
+  background: linear-gradient(#F8BBD0, #FFCDD2);
+  padding: 5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.heart {
+  width: 100px;
+  height: 100px;
+  background: #EF9A9A;
+  transform: rotate(45deg);
+  animation: heart-beat 2s ease-in-out infinite;
+}
+.heart::after,
+.heart::before {
+  position: absolute;
+  content: '';
+  width: 100px;
+  height: 100px;
+  background: #EF9A9A;
+  border-radius: 50%;
+  border-top: 5px #E57373 solid;
+}
+.heart::after {
+  top: -55px;
+  left: 0px;
+}
+.heart::before {
+  top: -5px;
+  left: -50px;
+}
+.message {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3em;
+  margin-top: 0.8em;
+  transform: translateX(-10px);
+}

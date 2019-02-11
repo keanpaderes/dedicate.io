@@ -47,7 +47,7 @@ export default {
       this.$router.push({
         name: 'message',
         params: {
-          messageKey: Messages['qLEux'],
+          messageKey: 'qLEux',
         },
       });
     },
@@ -80,7 +80,7 @@ export default {
         this.$router.push({
           name: 'message',
           params: {
-            messageKey: Messages[newResult],
+            messageKey: newResult,
           },
         });
       }
