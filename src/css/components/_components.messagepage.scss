@@ -1,47 +1,132 @@
+//
+// @import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+//
+// * {
+//   margin: 0;
+//   padding: 0;
+// }
+// .wrapper {
+//   height: 100vh;
+//   background: linear-gradient(#F8BBD0, #FFCDD2);
+//   padding: 5em;
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   justify-content: center;
+// }
+// .heart {
+//   width: 100px;
+//   height: 100px;
+//   background: #EF9A9A;
+//   transform: rotate(45deg);
+//   animation: heart-beat 2s ease-in-out infinite;
+// }
+// .heart::after,
+// .heart::before {
+//   position: absolute;
+//   content: '';
+//   width: 100px;
+//   height: 100px;
+//   background: #EF9A9A;
+//   border-radius: 50%;
+//   border-top: 5px #E57373 solid;
+// }
+// .heart::after {
+//   top: -55px;
+//   left: 0px;
+// }
+// .heart::before {
+//   top: -5px;
+//   left: -50px;
+// }
+// .message {
+//   font-family: 'Great Vibes', cursive;
+//   font-size: 3em;
+//   margin-top: 0.8em;
+//   transform: translateX(-10px);
+// }
+* {box-sizing: border-box;}
+html {overflow: hidden;}
 
-@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+$valentines: #eb3f84;
 
-* {
-  margin: 0;
-  padding: 0;
+html {
+  // animation: html 4s ease infinite;
+  background: $valentines;
 }
-.wrapper {
-  height: 100vh;
-  background: linear-gradient(#F8BBD0, #FFCDD2);
-  padding: 5em;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+
+.heart-animation {
+  animation: heart 4s ease infinite;
 }
+
 .heart {
-  width: 100px;
-  height: 100px;
-  background: #EF9A9A;
-  transform: rotate(45deg);
-  animation: heart-beat 2s ease-in-out infinite;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background: $valentines;
+  margin: 200px auto;
+  transform: rotate(0deg);
+  // animation: heart 4s ease infinite;
+  &:before,
+  &:after {
+    content: "";
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background: #fff;
+    border-radius: 200px;
+    // transition: 1s ease all;
+  }
+  &:before {
+    top: 0;
+    left: 0;
+    // animation: left 4s ease infinite;
+  }
+  &:after {
+    left: 0;
+    top: 0;
+    // animation: right 4s ease infinite;
+  }
 }
-.heart::after,
-.heart::before {
-  position: absolute;
-  content: '';
-  width: 100px;
-  height: 100px;
-  background: #EF9A9A;
-  border-radius: 50%;
-  border-top: 5px #E57373 solid;
+
+.heart-anim {
+  animation: heart 4s ease infinite;
+  &:before,
+  &:after {
+    transition: 1s ease all;
+  }
+  &:before {
+    animation: left 4s ease infinite;
+  }
+  &:after {
+    animation: right 4s ease infinite;
+  }
 }
-.heart::after {
-  top: -55px;
-  left: 0px;
+
+@keyframes heart {
+  0% {transform: rotate(0deg);border-radius: 200px;background: #fff;}
+  30% {transform: rotate(45deg); border-radius: 10px;}
+  50% {background: $valentines;}
+  70% {transform: rotate(45deg);border-radius: 10px;}
+  100% {transform: rotate(90deg);border-radius: 200px;background: #fff;}
 }
-.heart::before {
-  top: -5px;
-  left: -50px;
+@keyframes left {
+  0% {top: 0; background: #fff;}
+  30% {top: -100px;}
+  50% {background: $valentines;}
+  70% {top: -100px;}
+  100% {top: 0; background: #fff;}
 }
-.message {
-  font-family: 'Great Vibes', cursive;
-  font-size: 3em;
-  margin-top: 0.8em;
-  transform: translateX(-10px);
+@keyframes right {
+  0% {left: 0; background: #fff;}
+  30% {left: -100px;}
+  50% {background: $valentines;}
+  70% {left: -100px;}
+  100% {left: 0; background: #fff;}
+}
+
+@keyframes html {
+  0% {background: $valentines;}
+  50% {background: white;}
+  100% {background: $valentines;}
 }
