@@ -14,7 +14,7 @@
           </template>
           <template v-else>
             <div>
-              <div class="center-message">
+              <div class="center-message smol-hearts">
                 <div class="container">
                   <div class="small-hearts anim1">&hearts;</div>
                 </div>

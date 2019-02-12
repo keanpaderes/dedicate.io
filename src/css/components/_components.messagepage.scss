@@ -4,6 +4,11 @@ html {overflow: hidden;}
 .center-message {
   margin: 0 auto;
 }
+
+.smol-hearts {
+  padding-left: 50px;
+}
+
 .container{
   position: relative;
   width: 50px;
@@ -35,7 +40,7 @@ html {overflow: hidden;}
 }
 
 .html-bg {
-  background: $color-valentines;
+  background: $color-valentines-message-border;
 }
 
 .heart {
@@ -43,7 +48,7 @@ html {overflow: hidden;}
   top: 30vh;
   width: 200px;
   height: 200px;
-  background: $color-valentines;
+  background: $color-valentines-message-border;
   margin: 200px auto;
   transform: rotate(0deg) scale(0.5);
   &:before,

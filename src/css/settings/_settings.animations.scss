@@ -64,7 +64,7 @@
 }
 
 @keyframes heart-turn-html {
-  0% {background: $color-valentines;}
+  0% {background: $color-valentines-message-border;}
   100% {background: $color-white;}
 }
 
@@ -100,6 +100,12 @@
 }
 .anim4 {
   animation-delay: 1.9s;
+}
+.anim5 {
+  animation-delay: 2.4s;
+}
+.anim6 {
+  animation-delay: 2.9s;
 }
 
 @keyframes movement {
