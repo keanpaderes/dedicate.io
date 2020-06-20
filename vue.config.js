@@ -1,6 +1,6 @@
 module.exports = {
-  baseUrl: 'dedicate.io',
+  publicPath: '/dedicate.io',
   pwa: {
-    themeColor: '#eb3f84',
+    themeColor: '#09668A',
   },
 }

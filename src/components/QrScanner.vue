@@ -7,7 +7,7 @@
       <QrcodeStream @decode="onDecode" @init="onInit" />
     </div>
     <button @click="toggleCameraStatusAction">Turn {{ cameraStatus? 'Off' : 'On' }} Camera</button>
-    <!-- <button @click="goToTestMessage">Test</button> -->
+    <button @click="goToTestMessage">Test</button>
   </div>
 </template>
 
@@ -47,7 +47,7 @@ export default {
       this.$router.push({
         name: 'message',
         params: {
-          messageKey: 'qLEux',
+          messageKey: 'H4kCg',
         },
       });
     },

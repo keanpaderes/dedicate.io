@@ -22,7 +22,7 @@ html {overflow: hidden;}
   width: auto;
   word-wrap: break-word;
   h2 {
-    text-shadow: $color-valentines-shadow;
+    text-shadow: $color-navy-blue;
   }
 }
 
@@ -35,68 +35,92 @@ html {overflow: hidden;}
 .message-header-after {
   top: 120px;
   .message-header-highlight {
-    color: $color-valentines;
+    color: $color-navy-blue;
   }
 }
 
-.html-bg {
-  background: $color-valentines-message-border;
-}
+// valentines version
+// .message-header {
+//   position: relative;
+//   top: 150px;
+//   width: auto;
+//   word-wrap: break-word;
+//   h2 {
+//     text-shadow: $color-valentines-shadow;
+//   }
+// }
+//
+// .message-header-before {
+//   h1 {
+//     color: #fff;
+//   }
+// }
+//
+// .message-header-after {
+//   top: 120px;
+//   .message-header-highlight {
+//     color: $color-valentines;
+//   }
+// }
 
-.heart {
-  position: relative;
-  top: 30vh;
-  width: 200px;
-  height: 200px;
-  background: $color-valentines-message-border;
-  margin: 200px auto;
-  transform: rotate(0deg) scale(0.5);
-  &:before,
-  &:after {
-    content: "";
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    background: #fff;
-    border-radius: 200px;
-  }
-  &:before {
-    top: 0;
-    left: 0;
-  }
-  &:after {
-    left: 0;
-    top: 0;
-  }
-}
+// .html-bg {
+//   background: $color-valentines-message-border;
+// }
 
-.heart-end {
-  position: relative;
-  top: 8vh;
-  width: 200px;
-  height: 200px;
-  background: $color-valentines;
-  margin: 200px auto;
-  transform: rotate(45deg) scale(0.5);
-  animation: heart-beat 2s ease infinite;
-  &:before,
-  &:after {
-    content: "";
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    background: $color-valentines;
-    border-radius: 200px;
-  }
-  &:before {
-    top: -100px;
-    left: 0;
-  }
-  &:after {
-    left: -100px;
-    top: 0;
-  }
-}
+// .heart {
+//   position: relative;
+//   top: 30vh;
+//   width: 200px;
+//   height: 200px;
+//   background: $color-valentines-message-border;
+//   margin: 200px auto;
+//   transform: rotate(0deg) scale(0.5);
+//   &:before,
+//   &:after {
+//     content: "";
+//     width: 200px;
+//     height: 200px;
+//     position: absolute;
+//     background: #fff;
+//     border-radius: 200px;
+//   }
+//   &:before {
+//     top: 0;
+//     left: 0;
+//   }
+//   &:after {
+//     left: 0;
+//     top: 0;
+//   }
+// }
+//
+// .heart-end {
+//   position: relative;
+//   top: 8vh;
+//   width: 200px;
+//   height: 200px;
+//   background: $color-valentines;
+//   margin: 200px auto;
+//   transform: rotate(45deg) scale(0.5);
+//   animation: heart-beat 2s ease infinite;
+//   &:before,
+//   &:after {
+//     content: "";
+//     width: 200px;
+//     height: 200px;
+//     position: absolute;
+//     background: $color-valentines;
+//     border-radius: 200px;
+//   }
+//   &:before {
+//     top: -100px;
+//     left: 0;
+//   }
+//   &:after {
+//     left: -100px;
+//     top: 0;
+//   }
+// }
 
 .html-bg-end {
   background: white;
@@ -111,13 +135,13 @@ html {overflow: hidden;}
   padding-top: 25%;
 }
 
-.message-box-container {
-  padding: 5vh;
-  background-color: $color-valentines-message-box;
-  border-radius: 25px;
-  border: 2px solid $color-valentines-message-border;
-  color: $color-valentines-message-box-text;
-}
+// .message-box-container {
+//   padding: 5vh;
+//   background-color: $color-valentines-message-box;
+//   border-radius: 25px;
+//   border: 2px solid $color-valentines-message-border;
+//   color: $color-valentines-message-box-text;
+// }
 
 .heart-anim {
   animation: heart-turn-main 2s ease;
@@ -135,4 +159,11 @@ html {overflow: hidden;}
 
 .html-anim {
   animation: heart-turn-html 1s ease;
+}
+
+#crown-container {
+  top: 50%;
+  left: 50%;
+  width: 100px;
+  height: 50px;
 }

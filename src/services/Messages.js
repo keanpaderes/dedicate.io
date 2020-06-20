@@ -20,4 +20,36 @@ export default {
   'AYiES':  'This is a test message for Gege ',// Gege
   'veeDT':  'This is a test message for Angic',// Angic
   'GMvPe':  'This is a test message for Danika',// Danika
+
+  'XrJ5t': {
+    title: 'Happy Father\'s Day, Dad!',
+    main: 'Thank you po sa lahat ng sakripisyo nyo, at hanggang ngayon '
+      + 'sa mga advise nyo po. Dad proud na proud po ako at kayo ang tatay ko '
+      + 'hehe. Alam ko pong pagod na po kayo Dad. Kaya ko na po kayo matulungan '
+      + 'ngayon, sabihin nyo lang po. Miss na po namin kayo!',
+    remarks: 'I love you Dad! - Kean'
+  },
+  '7G7Xs': {
+    title: 'Happy Father\'s Day, Dad! 😘😘😘❤️❤️❤️',
+    main: 'I adore you for being the best father to our kids. You sacrifice a lot '
+      + 'not being with them all the time to give them the best life they have now. '
+      + 'Thank you Daddy for your hardwork to make us safe and secure. '
+      + 'I love you Daddy and please always take care of yourself for us.',
+    remarks: '- Mommy'
+  },
+  '4atAJ': {
+    title: 'Happy Daddy Day, Da!!!',
+    main: 'Thank you po sa lahat ng ginagawa po ninyo para sa amin nina '
+      + 'Kuya, Kyla, at Ma. 😊😊 Lagi po kayo mag-iingat dyan sa Riyadh '
+      + 'at lagi po kami mag-iingat dito sa bahay. hehe Pakain na lang po '
+      + 'ako ng handa po ninyo dyan ngayon hehe 😂',
+    remarks: '- Katreen Claire'
+  },
+  'H4kCg': {
+    title: 'Happy Father\'s day, Daddyyyyy!',
+    main: 'Thank you for being a great father to us and I want you to know '
+      + 'you\'re the best daddy ever hehehehe. I\'ll always do my best to '
+      + 'make you proud and happy. We love youuu!',
+    remarks: '- Kyla Marie'
+  }
 }
