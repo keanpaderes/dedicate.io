@@ -34,7 +34,8 @@ export default {
     main: 'I adore you for being the best father to our kids. You sacrifice a lot '
       + 'not being with them all the time to give them the best life they have now. '
       + 'Thank you Daddy for your hardwork to make us safe and secure. '
-      + 'I love you Daddy and please always take care of yourself for us.',
+      + 'I love you Daddy and please always take care of yourself for us. ',
+      + 'We miss you so much sana makauwi ka na soon.'
     remarks: '- Mommy'
   },
   '4atAJ': {
