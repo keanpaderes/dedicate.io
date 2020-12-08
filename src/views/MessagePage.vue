@@ -98,7 +98,7 @@ export default {
   methods: {
     startHeartAnimation() {
       if (this.messageKey === 'qLEux' && !this.isEndAnimation) {
-        console.log('clicked');
+        // console.log('clicked');
         this.isStartAnimation = true;
         document.body.className += ' html-anim';
         this.isEndAnimation = true;

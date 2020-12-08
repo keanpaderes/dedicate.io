@@ -34,8 +34,8 @@ export default {
     main: 'I adore you for being the best father to our kids. You sacrifice a lot '
       + 'not being with them all the time to give them the best life they have now. '
       + 'Thank you Daddy for your hardwork to make us safe and secure. '
-      + 'I love you Daddy and please always take care of yourself for us. ',
-      + 'We miss you so much sana makauwi ka na soon.'
+      + 'I love you Daddy and please always take care of yourself for us. '
+      + 'We miss you so much sana makauwi ka na soon.',
     remarks: '- Mommy'
   },
   '4atAJ': {
@@ -52,5 +52,12 @@ export default {
       + 'you\'re the best daddy ever hehehehe. I\'ll always do my best to '
       + 'make you proud and happy. We love youuu!',
     remarks: '- Kyla Marie'
+  },
+  '78SYs': {
+    title: 'Happy Birthday, Mommy!',
+    main: 'Thank you sa pagalaga po sa amin kahit makukulit kami. '
+      + 'Sana magustuhan nyo po etong b-day/Christmas gift ko po. '
+      + 'I love you Ma!',
+    remarks: '- Kean'
   }
 }
