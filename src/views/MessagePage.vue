@@ -54,7 +54,7 @@
             <div id="crown-container" class="center-message">
               <svg id="crown" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 50">
                 <defs>
-                  <svg:style type="text/css">.cls-1{fill:#0f74b5;}</svg:style>
+                  <svg:style type="text/css">.cls-1{fill:#A100FF;}</svg:style>
                 </defs>
                 <title>Untitled-1</title>
                 <polygon class="cls-1"
